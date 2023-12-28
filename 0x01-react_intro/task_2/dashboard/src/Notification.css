@@ -1,3 +1,23 @@
 .Notifications {
-    border: 2px solid red;
+    border: 2px dashed red;
+    width: 100%;
+    height: 150px;
+}
+
+#not-p{
+    margin-top: 10px;
+}
+
+#not-button {
+    position: fixed;
+    top: 1rem;
+    right:1rem;
+}
+
+ul li[data="default"] {
+    color: blue;
+}
+
+ul li[data="urgent"] {
+    color: red;
 }
